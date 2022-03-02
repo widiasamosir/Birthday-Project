@@ -1,10 +1,80 @@
 <!--The content below is only a placeholder and can be replaced.-->
-  <h1 class="font-weight-bold" [style.color]="colorSelected" id="h1"> HAPPY BRITHDAY {{who}} </h1>
-  <h2 id="h2">  my best wishes</h2>
-  <img class="img-thumbnail" src="/assets/img/img.jpg" alt="Cake-For-You" id="img"/>
-  <div class="text-center m-1 font-weight-bolder">
-      <button class="btn btn-lg btn-danger" data-playing="false" role="switch" aria-checked="false">
-          <span> Play </span>
-      </button> </div>
+
+<div class="row ">
+    <div class="column vertical-center">
+        <h1 class="title-font" id="h1"> HAPPY BIRTHDAY </h1> 
+        <h1 class="name-address" id="h1">  {{who}}   </h1> 
+    </div>
+    <div class="column">  
+        <img class="main-photo" src="/assets/img/main-photo.jpeg" alt="main-photo"/>
+    </div>
+  </div>
+
+  <div class="column" style="margin-top: 150px;">
+      <img class = "small-icon" src="/assets/img/cake-image.png" alt="cake-image">
+      
+      <h1 class="birthday-song-text" > 
+        생일 축하합니다 <br>
+        생일축하합니다 <br>
+        내 사랑스러운 남자 친구 ~~  <br>
+        생일축하합니다 </h1> 
+        <h2 class="birthday-song-text">이 세상에서 태어나줘서 고마워요 !!!!</h2>
+
+        <div class="text-center m-1 font-weight-bolder" >
+            <button class="btn btn-lg btn-danger" style="margin-top: 50px;margin-bottom: 5px;" data-playing="false" role="switch" aria-checked="false">
+                <span> Click to play </span>
+            </button> </div>
+  </div>
+
+  <img class="divider" src="/assets/img/white-divider.png" alt="gold-divider">
+
+  <h1 class="wishes-title">My wishes for you</h1>
+ 
+  <div class="row">
+      <div class="column-3">
+          <img class="photo-row" src="/assets/img/photo-2.jpeg" alt="photo-2">
+          <p class="line-message">"Semoga setiap rencana yang dibuat bisa berhasil dan tetap excellent dalam setiap misi yang ditempuh baik di studi maupun kehidupan sehari-hari"</p>
+      </div>
+      <div class="column-3">
+        <img class="photo-row" src="/assets/img/photo-4.jpeg" alt="photo-2">
+        <p class="line-message">"Tetap sehat. Jangan terluka :((<br> Tetap FOKUS di lab~~"</p>
+      </div>
+
+      <div class="column-3">
+        <img class="photo-row" src="/assets/img/photo-5.jpeg" alt="photo-2">
+        <p class="line-message">"Tetap hangat!!! Baik secara fisik, mental, jiwa, raga, hati, dan rasa"</p>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="column-3">
+        <img class="photo-row" src="/assets/img/photo-6.jpeg" alt="photo-2">
+        <p class="line-message">"Jangan impulsif dalam belanja (kayak aku akhir2 ini wkwkkw). Tapi kalo soal makanan, gaskeunn!! "</p>
+    </div>
+    <div class="column-3">
+      <img class="photo-row" src="/assets/img/photo-7.jpeg" alt="photo-2">
+      <p class="line-message">"Semangat dalam ber-KTB. Indahnya persekutuan :))) ~~~"</p>
+    </div>
+
+    <div class="column-3">
+      <img class="photo-row" src="/assets/img/photo-8.jpeg" alt="photo-2">
+      <p class="line-message">"Dirimu sudah tampan dan glow up kok. Ingatt!! salah satu faktor penentu ketampanan adalah percaya diri. <br> Jadi, tetap percaya diri!!!"</p>
+    </div>
+</div>
+  
+<img class="divider" src="/assets/img/white-divider.png" alt="gold-divider">
+
+ 
+  <div class="column" style="margin-top: 100px;">
+     
+      <p class="line-message">Sincerely,</p>
+      <img class = "my-photo" src="/assets/img/photo-3.jpeg" alt="gf">  
+      <p class="line-message">Your GF that love you souuuuu muuchhh~~</p>
+      <p class="line-message">-Angeline-</p>
+  </div>
+  
+ 
+
+       <h2 id="h2">  my best wishes</h2>
       <audio src="assets/song/happy-birthday.mp3" type="audio/mpeg"></audio>
 <router-outlet></router-outlet>

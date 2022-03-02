@@ -1,28 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
 @font-face {
-    font-family: llcalig;
-    src: url(./assets/fonts/lcallig.TTF);
-    font-style: italic;
-    font-weight: bolder;
+    font-family: "raleway";
+    src: url(./assets/fonts/Raleway/static/Raleway-Bold.ttf)  format("opentype");;
+  
 }
 body {
-    background-color: #f7f1e3;
+    background-color: #252525;
     margin: 10px;
       
 }
 button{
-    font-family:llcalig;
+    font-family:'raleway';
 }
 h2 {
 
-    font-family: llcalig;
+    font-family: 'raleway';
     text-align: center;
     
 }
 #h1 {
 
-    font-family: llcalig;
+    font-family: 'raleway';
     text-align: center;
     
 }
